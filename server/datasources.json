@@ -1,0 +1,28 @@
+{
+  "db": {
+    "name": "db",
+    "connector": "memory"
+  },
+  "mongo": {
+    "name": "mongo",
+    "connector": "mongodb",
+    "url": "mongodb://heroku_0ppb9d1b:8d9lrjk1mh3nvseikmq5683lhl@ds045734.mongolab.com:45734/heroku_0ppb9d1b"
+  },
+  "emailConnector": {
+    "name": "emailConnector",
+    "connector": "mail",
+    "transports": [{
+       "type": "smtp",
+       "host": "mail.softstackfactory.com",
+       "secure": false,
+       "port": 587,
+       "tls": {
+         "rejectUnauthorized": false
+       },
+       "auth": {
+         "user": "aaguilar@softstackfactory.com",
+         "pass": ""
+       }
+     }]
+  }
+}
