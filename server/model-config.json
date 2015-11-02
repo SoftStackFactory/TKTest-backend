@@ -42,9 +42,6 @@
   },
   "SSFUsers": {
     "dataSource": "mongo",
-    "public": true,
-    "options": {
-      "emailVerificationRequired": true
-    }
+    "public": true
   }
 }
